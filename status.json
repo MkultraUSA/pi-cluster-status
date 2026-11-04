@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T18:15:01Z",
+  "generated": "2026-11-04T18:39:17Z",
   "images": [
     {
       "tag": "v1",
@@ -28,5 +28,20 @@
       ]
     }
   ],
-  "patch_timeline": []
+  "patch_timeline": [
+    {
+      "when": "2026-11-04T18:32:43Z",
+      "image": "registry.registry.svc:5000/patch-demo",
+      "old_tag": "v2",
+      "new_tag": "v20261104-1832",
+      "scan_file": "patch-demo-v2.json",
+      "fixable_count": 2,
+      "fixable_cves": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ],
+      "forced_drill": false,
+      "rollout": "via git commit -> ArgoCD auto-sync (readiness-gated rolling update)"
+    }
+  ]
 }
