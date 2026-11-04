@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-04T22:30:02Z",
+  "generated": "2026-11-04T23:30:02Z",
   "images": [
     {
       "tag": "v1",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -16,7 +16,7 @@
     },
     {
       "tag": "v2",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -29,7 +29,7 @@
     },
     {
       "tag": "v20261104-1818",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -42,7 +42,7 @@
     },
     {
       "tag": "v20261104-1832",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -55,7 +55,7 @@
     },
     {
       "tag": "v20261104-1845",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -68,7 +68,33 @@
     },
     {
       "tag": "v20261104-2052",
-      "scanned": "2026-11-04 22:00 UTC",
+      "scanned": "2026-11-04 23:26 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v20261104-2306",
+      "scanned": "2026-11-04 23:26 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v20261104-2321",
+      "scanned": "2026-11-04 23:26 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -81,6 +107,40 @@
     }
   ],
   "patch_timeline": [
+    {
+      "when": "2026-11-04T23:22:37Z",
+      "image": "registry.registry.svc:5000/patch-demo",
+      "old_tag": "v20261104-2306",
+      "new_tag": "v20261104-2321",
+      "scan_file": "patch-demo-v20261104-2306.json",
+      "fixable_count": 2,
+      "fixable_cves": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ],
+      "recipe_version": "3b-full-snapshot",
+      "priority_cves": [],
+      "kev_driven": false,
+      "forced_drill": false,
+      "rollout": "via git commit -> ArgoCD auto-sync (readiness-gated rolling update)"
+    },
+    {
+      "when": "2026-11-04T23:08:00Z",
+      "image": "registry.registry.svc:5000/patch-demo",
+      "old_tag": "v20261104-2052",
+      "new_tag": "v20261104-2306",
+      "scan_file": "patch-demo-v20261104-2052.json",
+      "fixable_count": 2,
+      "fixable_cves": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ],
+      "recipe_version": "3-security-plus-pip",
+      "priority_cves": [],
+      "kev_driven": false,
+      "forced_drill": false,
+      "rollout": "via git commit -> ArgoCD auto-sync (readiness-gated rolling update)"
+    },
     {
       "when": "2026-11-04T20:53:55Z",
       "image": "registry.registry.svc:5000/patch-demo",
