@@ -1,1 +1,32 @@
-{"generated": "seed"}
+{
+  "generated": "2026-11-04T17:51:26Z",
+  "images": [
+    {
+      "tag": "v1",
+      "scanned": "2026-11-04 12:00 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v2",
+      "scanned": "2026-11-04 12:00 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    }
+  ],
+  "patch_timeline": []
+}
