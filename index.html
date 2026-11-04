@@ -9,7 +9,7 @@ code{background:#161b22;padding:.1rem .35rem;border-radius:4px}
 </style></head><body>
 <h1>pi-cluster — live security posture</h1>
 <p class="meta">A 4-node Raspberry Pi Kubernetes cluster that rebuilds and replaces its own
-images when CVE advisories make fixes available. Rendered 2026-11-04 19:30 UTC by the cluster itself.</p>
+images when CVE advisories make fixes available. Rendered 2026-11-04 20:30 UTC by the cluster itself.</p>
 <h2>How it works</h2>
 <p>Every 6 hours the cluster scans every image it runs (trivy, DB auto-refreshed from CVE feeds).
 A verdict engine marks images <i>REBUILD+REPLACE DUE</i> when upstream fixes exist. The actuator
@@ -18,7 +18,7 @@ git, and ArgoCD rolls the fleet behind readiness gates — with a timestamped ev
 every action. Humans gate only the risky parts: k3s upgrades and major version bumps.</p>
 <h2>Images under watch</h2>
 <table><tr><th>image:tag</th><th>open CVEs</th><th>fixable upstream</th><th>verdict</th><th>scanned</th></tr>
-<tr><td><b>v1</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 18:01 UTC</td></tr><tr><td><b>v2</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 18:01 UTC</td></tr></table>
+<tr><td><b>v1</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 20:24 UTC</td></tr><tr><td><b>v2</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 20:24 UTC</td></tr><tr><td><b>v20261104-1818</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 20:24 UTC</td></tr><tr><td><b>v20261104-1832</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 20:24 UTC</td></tr><tr><td><b>v20261104-1845</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-04 20:24 UTC</td></tr></table>
 <h2>Patch timeline — when fixes were deployed</h2>
 <table><tr><th>when (UTC)</th><th>tag change</th><th>advisories addressed</th><th>trigger</th></tr>
 <tr><td>2026-11-04T18:45:35Z</td><td>v20261104-1832 → <b>v20261104-1845</b></td><td>CVE-2026-23949, CVE-2026-24049</td><td>advisory-driven</td></tr><tr><td>2026-11-04T18:32:43Z</td><td>v2 → <b>v20261104-1832</b></td><td>CVE-2026-23949, CVE-2026-24049</td><td>advisory-driven</td></tr></table>

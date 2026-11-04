@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-04T19:30:02Z",
+  "generated": "2026-11-04T20:30:02Z",
   "images": [
     {
       "tag": "v1",
-      "scanned": "2026-11-04 18:01 UTC",
+      "scanned": "2026-11-04 20:24 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -16,7 +16,46 @@
     },
     {
       "tag": "v2",
-      "scanned": "2026-11-04 18:01 UTC",
+      "scanned": "2026-11-04 20:24 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v20261104-1818",
+      "scanned": "2026-11-04 20:24 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v20261104-1832",
+      "scanned": "2026-11-04 20:24 UTC",
+      "total": 40,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 38
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "tag": "v20261104-1845",
+      "scanned": "2026-11-04 20:24 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
