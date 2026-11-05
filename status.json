@@ -1,9 +1,9 @@
 {
-  "generated": "2026-11-05T11:30:03Z",
+  "generated": "2026-11-05T12:30:04Z",
   "images": [
     {
       "tag": "v1",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -16,7 +16,7 @@
     },
     {
       "tag": "v2",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -29,7 +29,7 @@
     },
     {
       "tag": "v20261104-1818",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -42,7 +42,7 @@
     },
     {
       "tag": "v20261104-1832",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -55,7 +55,7 @@
     },
     {
       "tag": "v20261104-1845",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -68,7 +68,7 @@
     },
     {
       "tag": "v20261104-2052",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -81,7 +81,7 @@
     },
     {
       "tag": "v20261104-2306",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -94,7 +94,7 @@
     },
     {
       "tag": "v20261104-2321",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 40,
       "counts": {
         "CRITICAL": 2,
@@ -107,7 +107,7 @@
     },
     {
       "tag": "v20261104-2332",
-      "scanned": "2026-11-05 11:00 UTC",
+      "scanned": "2026-11-05 12:00 UTC",
       "total": 39,
       "counts": {
         "CRITICAL": 2,
