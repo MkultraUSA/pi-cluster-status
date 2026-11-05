@@ -28,6 +28,25 @@ into a versioned playbook. Its only write path is a git commit.</p>
 PHP2Shell) were being exploited <i>four days before the fix was released</i>. Working exploits
 showed up within hours of the patch, and a week later most sites still hadn't updated. The bad
 guys work in hours now. So does this cluster.</p>
+<h2>PHP2Shell: the timeline, compared</h2>
+<p>What actually happened, from public reporting:</p>
+<table><tr><th>when</th><th>the real world</th></tr>
+<tr><td>Oct 17</td><td>exploitation seen in the wild — <b>four days before any fix existed</b></td></tr>
+<tr><td>Oct 21, 07:43 UTC</td><td>attacks observed the morning of patch day</td></tr>
+<tr><td>Oct 21, 14:00 UTC</td><td>PHP ships the fix; working exploits circulate within hours</td></tr>
+<tr><td>Oct 26</td><td>CISA adds both CVEs to the known-exploited catalog</td></tr>
+<tr><td>+ 1 week</td><td>about half of modern PHP sites still unpatched, under 1% of legacy sites</td></tr></table>
+<p>What a network running this setup would have done, from measured runs:</p>
+<table><tr><th>when</th><th>this cluster</th></tr>
+<tr><td>fix hits the trivy database</td><td>the hourly scan flags the running image, verdict flips to REBUILD+REPLACE DUE (≤ 1 hour)</td></tr>
+<tr><td>+ 5 minutes</td><td>the actuator rebuilds the image with the fixes baked in and commits the new tag</td></tr>
+<tr><td>+ 10 minutes</td><td>ArgoCD has rolled the fleet behind readiness gates; evidence is on this page</td></tr></table>
+<p>Two honest limits. First, the Oct 17–21 window: exploitation before any fix exists is not a
+patching problem — exposure control is, and this cluster's answer is LAN-only with one watched
+door. Second, my cluster runs no PHP, so I tested the mechanics on the images I do run. The
+pipeline is distro- and language-agnostic on purpose: the CVEs it tracked tonight were in
+Python packaging tools, one of which survived my first fix by hiding inside setuptools' vendored
+copies. The scanner caught that. That's the part I like most.</p>
 <h2>Images under watch</h2>
 <table><tr><th>image:tag</th><th>open CVEs</th><th>fixable upstream</th><th>verdict</th><th>scanned</th></tr>
 <tr><td><b>v20261104-2306</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:39</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-1845</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:41</span></td><td>fixable: 3 <span class="meta">(CVE-2026-109518, CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-2052</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:39</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v1</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:41</span></td><td>fixable: 3 <span class="meta">(CVE-2026-109518, CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-2332</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:38</span></td><td>fixable: 1 <span class="meta">(CVE-2025-47273)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-1818</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:41</span></td><td>fixable: 3 <span class="meta">(CVE-2026-109518, CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-2321</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:39</span></td><td>fixable: 2 <span class="meta">(CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v2</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:41</span></td><td>fixable: 3 <span class="meta">(CVE-2026-109518, CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr><tr><td><b>v20261104-1832</b></td><td><span class="sev critical">CRITICAL:2</span> <span class="sev high">HIGH:41</span></td><td>fixable: 3 <span class="meta">(CVE-2026-109518, CVE-2026-23949, CVE-2026-24049)</span></td><td><span class="bad">REBUILD+REPLACE DUE</span></td><td class="meta">2026-11-05 22:00 UTC</td></tr></table>
@@ -40,6 +59,6 @@ caught it — turns out they were hiding inside setuptools' own vendored copy of
 packages I upgraded. Recipe v4 upgrades setuptools too. I left the failed attempt in the
 timeline on purpose. A scanner that can't tell you your patch didn't work is worse than no
 scanner.</p>
-<p class="meta">Rendered 2026-11-05 22:30 UTC by a Job inside the cluster · machine-readable:
+<p class="meta">Rendered 2026-11-05 22:33 UTC by a Job inside the cluster · machine-readable:
 <a href="status.json" style="color:#58a6ff">status.json</a> · 4 Raspberry Pis, $0 of cloud</p>
 </body></html>
