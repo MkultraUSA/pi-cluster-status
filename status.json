@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-06T13:30:04Z",
+  "generated": "2026-11-06T14:30:04Z",
   "images": [
     {
       "tag": "v20261104-2306",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 41,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 44,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 39
+        "HIGH": 42
       },
       "fixable": [
         "CVE-2026-23949",
@@ -16,11 +16,11 @@
     },
     {
       "tag": "v20261104-1845",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 43,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 46,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 41
+        "HIGH": 44
       },
       "fixable": [
         "CVE-2026-109518",
@@ -30,11 +30,11 @@
     },
     {
       "tag": "v20261104-2052",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 41,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 44,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 39
+        "HIGH": 42
       },
       "fixable": [
         "CVE-2026-23949",
@@ -43,11 +43,11 @@
     },
     {
       "tag": "v1",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 43,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 46,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 41
+        "HIGH": 44
       },
       "fixable": [
         "CVE-2026-109518",
@@ -57,11 +57,11 @@
     },
     {
       "tag": "v20261104-2332",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 40,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 43,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 38
+        "HIGH": 41
       },
       "fixable": [
         "CVE-2025-47273"
@@ -69,11 +69,11 @@
     },
     {
       "tag": "v20261104-1818",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 43,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 46,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 41
+        "HIGH": 44
       },
       "fixable": [
         "CVE-2026-109518",
@@ -83,11 +83,11 @@
     },
     {
       "tag": "v20261104-2321",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 41,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 44,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 39
+        "HIGH": 42
       },
       "fixable": [
         "CVE-2026-23949",
@@ -96,11 +96,11 @@
     },
     {
       "tag": "v2",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 43,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 46,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 41
+        "HIGH": 44
       },
       "fixable": [
         "CVE-2026-109518",
@@ -110,11 +110,11 @@
     },
     {
       "tag": "v20261104-1832",
-      "scanned": "2026-11-06 13:00 UTC",
-      "total": 43,
+      "scanned": "2026-11-06 14:01 UTC",
+      "total": 46,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 41
+        "HIGH": 44
       },
       "fixable": [
         "CVE-2026-109518",
