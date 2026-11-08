@@ -1,13 +1,15 @@
 {
-  "generated": "2026-11-08T18:30:03Z",
+  "generated": "2026-11-08T19:14:15Z",
   "images": [
     {
-      "tag": "v20261104-2306",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 44,
+      "repo": "actuator",
+      "tag": "v1 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 63,
       "counts": {
-        "CRITICAL": 2,
-        "HIGH": 42
+        "CRITICAL": 3,
+        "HIGH": 60
       },
       "fixable": [
         "CVE-2026-23949",
@@ -15,8 +17,109 @@
       ]
     },
     {
-      "tag": "v20261104-1845",
-      "scanned": "2026-11-08 18:00 UTC",
+      "repo": "kaniko-cache-09f23492e440b3e2f8f5955c34a30be92fe949567ff6aad0497b6ae220e4c70c",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-0adb44f0fe01caf11aaa89edd1835541ff4107c9ec8d40c8b3014645545803e8",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-14618db21a5c6569614155914040d4e194a38c6e26f30a2d173b12682d2f4606",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-17ca388abd781e5186dc31dafe5ce391d346e8992918bcb787405a2bdf0fc663",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-3869729800a2489f01f0f0c0318125dc2eca9788b137024aaa8d7f2e1526dfcc",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-9838a2cc2ff1799a703b5dace9379db3643d07c969f9abca88514534a0135059",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-9c18512e1dffee2f52d6ec743be6e293d0513c4ac8d183b0f3b3ba97c9ec1f7f",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-a109e60b116adf1a680ca92f20c9a07aa62d245202a378e055db80df1c4db75a",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-b7471d4f58b209530f66ebffeb0b0782fd163c217ff89f84ea6a2f2738404892",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-c0082b80a36d2f758cc55b85de98b85ff572b64a583ff3a5577c8e8cc924258a",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "kaniko-cache-ced80b3b913a5d615c2d22f95e43fcdfd9e9056b9f9007d067c92b70061ec3af",
+      "tag": "",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v1 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -29,21 +132,10 @@
       ]
     },
     {
-      "tag": "v20261104-2052",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 44,
-      "counts": {
-        "CRITICAL": 2,
-        "HIGH": 42
-      },
-      "fixable": [
-        "CVE-2026-23949",
-        "CVE-2026-24049"
-      ]
-    },
-    {
-      "tag": "v1",
-      "scanned": "2026-11-08 18:00 UTC",
+      "repo": "patch-demo",
+      "tag": "v2 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -56,8 +148,103 @@
       ]
     },
     {
-      "tag": "v20261104-2332",
-      "scanned": "2026-11-08 18:00 UTC",
+      "repo": "patch-demo",
+      "tag": "v20261104-1818 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 46,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 44
+      },
+      "fixable": [
+        "CVE-2026-109518",
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-1832 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 46,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 44
+      },
+      "fixable": [
+        "CVE-2026-109518",
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-1845 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 46,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 44
+      },
+      "fixable": [
+        "CVE-2026-109518",
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-2052 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 44,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 42
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-2306 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 44,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 42
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-2321 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 44,
+      "counts": {
+        "CRITICAL": 2,
+        "HIGH": 42
+      },
+      "fixable": [
+        "CVE-2026-23949",
+        "CVE-2026-24049"
+      ]
+    },
+    {
+      "repo": "patch-demo",
+      "tag": "v20261104-2332 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
       "total": 43,
       "counts": {
         "CRITICAL": 2,
@@ -68,59 +255,136 @@
       ]
     },
     {
-      "tag": "v20261104-1818",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 46,
+      "repo": "pgbackup",
+      "tag": "v1 (alpine 3.24.3)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 26,
       "counts": {
-        "CRITICAL": 2,
-        "HIGH": 44
+        "CRITICAL": 1,
+        "HIGH": 25
       },
       "fixable": [
-        "CVE-2026-109518",
-        "CVE-2026-23949",
-        "CVE-2026-24049"
+        "CVE-2025-61726",
+        "CVE-2025-61729",
+        "CVE-2025-68121",
+        "CVE-2026-111943",
+        "CVE-2026-25679",
+        "CVE-2026-27145",
+        "CVE-2026-32280",
+        "CVE-2026-32281",
+        "CVE-2026-32283",
+        "CVE-2026-33811",
+        "CVE-2026-33814",
+        "CVE-2026-33818",
+        "CVE-2026-39820",
+        "CVE-2026-39821",
+        "CVE-2026-39822",
+        "CVE-2026-39836",
+        "CVE-2026-42499",
+        "CVE-2026-42504",
+        "CVE-2026-56853",
+        "CVE-2026-56858",
+        "CVE-2026-56859",
+        "CVE-2026-56860",
+        "CVE-2026-56862",
+        "CVE-2026-78667",
+        "CVE-2026-78669",
+        "CVE-2026-97031"
       ]
     },
     {
-      "tag": "v20261104-2321",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 44,
+      "repo": "pi-desktop",
+      "tag": "v1 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
       "counts": {
-        "CRITICAL": 2,
-        "HIGH": 42
+        "CRITICAL": 16,
+        "HIGH": 147
       },
       "fixable": [
-        "CVE-2026-23949",
-        "CVE-2026-24049"
+        "CVE-2026-109518"
       ]
     },
     {
-      "tag": "v2",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 46,
+      "repo": "pi-desktop",
+      "tag": "v2 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
       "counts": {
-        "CRITICAL": 2,
-        "HIGH": 44
+        "CRITICAL": 16,
+        "HIGH": 147
       },
       "fixable": [
-        "CVE-2026-109518",
-        "CVE-2026-23949",
-        "CVE-2026-24049"
+        "CVE-2026-109518"
       ]
     },
     {
-      "tag": "v20261104-1832",
-      "scanned": "2026-11-08 18:00 UTC",
-      "total": 46,
+      "repo": "pi-desktop",
+      "tag": "v3 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
       "counts": {
-        "CRITICAL": 2,
-        "HIGH": 44
+        "CRITICAL": 16,
+        "HIGH": 147
       },
       "fixable": [
-        "CVE-2026-109518",
-        "CVE-2026-23949",
-        "CVE-2026-24049"
+        "CVE-2026-109518"
       ]
+    },
+    {
+      "repo": "pi-desktop",
+      "tag": "v4 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
+      "counts": {
+        "CRITICAL": 16,
+        "HIGH": 147
+      },
+      "fixable": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "repo": "pi-desktop",
+      "tag": "v5 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
+      "counts": {
+        "CRITICAL": 16,
+        "HIGH": 147
+      },
+      "fixable": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "repo": "pi-desktop",
+      "tag": "v7 (debian 12.15)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 163,
+      "counts": {
+        "CRITICAL": 16,
+        "HIGH": 147
+      },
+      "fixable": [
+        "CVE-2026-109518"
+      ]
+    },
+    {
+      "repo": "ubuntu-demo",
+      "tag": "v1 (ubuntu 24.04)",
+      "os": "",
+      "scanned": "2026-11-08 19:00 UTC",
+      "total": 0,
+      "counts": {},
+      "fixable": []
     }
   ],
   "patch_timeline": [
