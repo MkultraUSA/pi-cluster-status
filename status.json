@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T00:30:03Z",
+  "generated": "2026-11-10T01:30:03Z",
   "images": [
     {
       "repo": "actuator",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 63,
       "counts": {
         "CRITICAL": 3,
@@ -20,7 +20,7 @@
       "repo": "patch-demo",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -36,7 +36,7 @@
       "repo": "patch-demo",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -52,7 +52,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1818",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -68,7 +68,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1832",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -84,7 +84,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1845",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 46,
       "counts": {
         "CRITICAL": 2,
@@ -100,7 +100,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2052",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 44,
       "counts": {
         "CRITICAL": 2,
@@ -115,7 +115,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2306",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 44,
       "counts": {
         "CRITICAL": 2,
@@ -130,7 +130,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2321",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 44,
       "counts": {
         "CRITICAL": 2,
@@ -145,7 +145,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2332",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 43,
       "counts": {
         "CRITICAL": 2,
@@ -159,7 +159,7 @@
       "repo": "pgbackup",
       "tag": "v1",
       "os": "alpine 3.24.3",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 26,
       "counts": {
         "CRITICAL": 1,
@@ -198,11 +198,11 @@
       "repo": "pi-desktop",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -212,11 +212,11 @@
       "repo": "pi-desktop",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -226,11 +226,11 @@
       "repo": "pi-desktop",
       "tag": "v3",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -240,11 +240,11 @@
       "repo": "pi-desktop",
       "tag": "v4",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -254,11 +254,11 @@
       "repo": "pi-desktop",
       "tag": "v5",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -268,11 +268,11 @@
       "repo": "pi-desktop",
       "tag": "v7",
       "os": "debian 12.15",
-      "scanned": "2026-11-10 00:00 UTC",
-      "total": 163,
+      "scanned": "2026-11-10 01:01 UTC",
+      "total": 164,
       "counts": {
         "CRITICAL": 16,
-        "HIGH": 147
+        "HIGH": 148
       },
       "fixable": [
         "CVE-2026-109518"
@@ -282,7 +282,7 @@
       "repo": "ubuntu-demo",
       "tag": "v1",
       "os": "ubuntu 24.04",
-      "scanned": "2026-11-10 00:00 UTC",
+      "scanned": "2026-11-10 01:01 UTC",
       "total": 0,
       "counts": {},
       "fixable": []
