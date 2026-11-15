@@ -1,15 +1,15 @@
 {
-  "generated": "2026-11-15T07:30:04Z",
+  "generated": "2026-11-15T08:30:03Z",
   "images": [
     {
       "repo": "actuator",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 125,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 129,
       "counts": {
         "CRITICAL": 3,
-        "HIGH": 122
+        "HIGH": 126
       },
       "fixable": [
         "CVE-2026-23949",
@@ -20,11 +20,11 @@
       "repo": "patch-demo",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 102,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 106,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 100
+        "HIGH": 104
       },
       "fixable": [
         "CVE-2026-109518",
@@ -36,11 +36,11 @@
       "repo": "patch-demo",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 102,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 106,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 100
+        "HIGH": 104
       },
       "fixable": [
         "CVE-2026-109518",
@@ -52,11 +52,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-1818",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 102,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 106,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 100
+        "HIGH": 104
       },
       "fixable": [
         "CVE-2026-109518",
@@ -68,11 +68,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-1832",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 102,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 106,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 100
+        "HIGH": 104
       },
       "fixable": [
         "CVE-2026-109518",
@@ -84,11 +84,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-1845",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 102,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 106,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 100
+        "HIGH": 104
       },
       "fixable": [
         "CVE-2026-109518",
@@ -100,11 +100,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-2052",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 100,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 104,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 98
+        "HIGH": 102
       },
       "fixable": [
         "CVE-2026-23949",
@@ -115,11 +115,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-2306",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 100,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 104,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 98
+        "HIGH": 102
       },
       "fixable": [
         "CVE-2026-23949",
@@ -130,11 +130,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-2321",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 100,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 104,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 98
+        "HIGH": 102
       },
       "fixable": [
         "CVE-2026-23949",
@@ -145,11 +145,11 @@
       "repo": "patch-demo",
       "tag": "v20261104-2332",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 99,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 103,
       "counts": {
         "CRITICAL": 2,
-        "HIGH": 97
+        "HIGH": 101
       },
       "fixable": [
         "CVE-2025-47273"
@@ -159,7 +159,7 @@
       "repo": "pgbackup",
       "tag": "v1",
       "os": "alpine 3.24.3",
-      "scanned": "2026-11-15 07:00 UTC",
+      "scanned": "2026-11-15 08:01 UTC",
       "total": 45,
       "counts": {
         "CRITICAL": 1,
@@ -217,11 +217,11 @@
       "repo": "pi-desktop",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -282,11 +282,11 @@
       "repo": "pi-desktop",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -347,11 +347,11 @@
       "repo": "pi-desktop",
       "tag": "v3",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -412,11 +412,11 @@
       "repo": "pi-desktop",
       "tag": "v4",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -477,11 +477,11 @@
       "repo": "pi-desktop",
       "tag": "v5",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -542,11 +542,11 @@
       "repo": "pi-desktop",
       "tag": "v7",
       "os": "debian 12.15",
-      "scanned": "2026-11-15 07:00 UTC",
-      "total": 288,
+      "scanned": "2026-11-15 08:01 UTC",
+      "total": 292,
       "counts": {
         "CRITICAL": 17,
-        "HIGH": 271
+        "HIGH": 275
       },
       "fixable": [
         "CVE-2026-109518",
@@ -607,7 +607,7 @@
       "repo": "ubuntu-demo",
       "tag": "v1",
       "os": "ubuntu 24.04",
-      "scanned": "2026-11-15 07:00 UTC",
+      "scanned": "2026-11-15 08:01 UTC",
       "total": 0,
       "counts": {},
       "fixable": []
