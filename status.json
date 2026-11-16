@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-16T04:30:05Z",
+  "generated": "2026-11-16T05:30:04Z",
   "images": [
     {
       "repo": "actuator",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 129,
       "counts": {
         "CRITICAL": 3,
@@ -20,7 +20,19 @@
       "repo": "libertas/epub-converter",
       "tag": "0.1",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
+      "total": 209,
+      "counts": {
+        "CRITICAL": 11,
+        "HIGH": 198
+      },
+      "fixable": []
+    },
+    {
+      "repo": "libertas/epub-converter",
+      "tag": "0.1.1",
+      "os": "debian 12.15",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 209,
       "counts": {
         "CRITICAL": 11,
@@ -32,7 +44,7 @@
       "repo": "libertas/library-search",
       "tag": "0.1",
       "os": "debian 13.7",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 49,
       "counts": {
         "HIGH": 49
@@ -46,7 +58,7 @@
       "repo": "libertas/manuals-fetcher",
       "tag": "0.1",
       "os": "debian 13.7",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 69,
       "counts": {
         "HIGH": 69
@@ -80,7 +92,41 @@
       "repo": "libertas/manuals-fetcher",
       "tag": "0.2",
       "os": "debian 13.7",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
+      "total": 69,
+      "counts": {
+        "HIGH": 69
+      },
+      "fixable": [
+        "CVE-2026-102993",
+        "CVE-2026-102994",
+        "CVE-2026-102995",
+        "CVE-2026-102996",
+        "CVE-2026-102997",
+        "CVE-2026-102998",
+        "CVE-2026-102999",
+        "CVE-2026-103000",
+        "CVE-2026-115572",
+        "CVE-2026-115580",
+        "CVE-2026-115585",
+        "CVE-2026-119203",
+        "CVE-2026-119204",
+        "CVE-2026-119205",
+        "CVE-2026-119206",
+        "CVE-2026-119207",
+        "CVE-2026-119208",
+        "CVE-2026-119209",
+        "CVE-2026-59935",
+        "CVE-2026-59936",
+        "CVE-2026-76844",
+        "CVE-2026-85091"
+      ]
+    },
+    {
+      "repo": "libertas/manuals-fetcher",
+      "tag": "0.3",
+      "os": "debian 13.7",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 69,
       "counts": {
         "HIGH": 69
@@ -114,7 +160,7 @@
       "repo": "libertas/manuals-verify",
       "tag": "0.1",
       "os": "debian 13.7",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 49,
       "counts": {
         "HIGH": 49
@@ -128,7 +174,7 @@
       "repo": "patch-demo",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 106,
       "counts": {
         "CRITICAL": 2,
@@ -144,7 +190,7 @@
       "repo": "patch-demo",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 106,
       "counts": {
         "CRITICAL": 2,
@@ -160,7 +206,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1818",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 106,
       "counts": {
         "CRITICAL": 2,
@@ -176,7 +222,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1832",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 106,
       "counts": {
         "CRITICAL": 2,
@@ -192,7 +238,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-1845",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 106,
       "counts": {
         "CRITICAL": 2,
@@ -208,7 +254,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2052",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 104,
       "counts": {
         "CRITICAL": 2,
@@ -223,7 +269,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2306",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 104,
       "counts": {
         "CRITICAL": 2,
@@ -238,7 +284,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2321",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 104,
       "counts": {
         "CRITICAL": 2,
@@ -253,7 +299,7 @@
       "repo": "patch-demo",
       "tag": "v20261104-2332",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 103,
       "counts": {
         "CRITICAL": 2,
@@ -267,7 +313,7 @@
       "repo": "pgbackup",
       "tag": "v1",
       "os": "alpine 3.24.3",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 45,
       "counts": {
         "CRITICAL": 1,
@@ -325,7 +371,7 @@
       "repo": "pi-desktop",
       "tag": "v1",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:01 UTC",
+      "scanned": "2026-11-16 05:01 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -390,7 +436,7 @@
       "repo": "pi-desktop",
       "tag": "v2",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:01 UTC",
+      "scanned": "2026-11-16 05:01 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -455,7 +501,7 @@
       "repo": "pi-desktop",
       "tag": "v3",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -520,7 +566,7 @@
       "repo": "pi-desktop",
       "tag": "v4",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:01 UTC",
+      "scanned": "2026-11-16 05:01 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -585,7 +631,7 @@
       "repo": "pi-desktop",
       "tag": "v5",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -650,7 +696,7 @@
       "repo": "pi-desktop",
       "tag": "v7",
       "os": "debian 12.15",
-      "scanned": "2026-11-16 04:00 UTC",
+      "scanned": "2026-11-16 05:00 UTC",
       "total": 292,
       "counts": {
         "CRITICAL": 17,
@@ -715,7 +761,7 @@
       "repo": "ubuntu-demo",
       "tag": "v1",
       "os": "ubuntu 24.04",
-      "scanned": "2026-11-16 04:01 UTC",
+      "scanned": "2026-11-16 05:01 UTC",
       "total": 0,
       "counts": {},
       "fixable": []
